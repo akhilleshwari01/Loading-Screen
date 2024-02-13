@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+
+   
+}
+.loading{
+    line-height: 3;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.loading__author{
+    display: block;
+    color: rgb(100, 101, 101);
+}
+.loading__anime{
+    width: 50px;
+    height: 50px;
+    border: 5px solid;
+    display: inline-block;
+    margin-top: 5%;
+    border-left-color: chocolate;
+    border-top-color: chartreuse;
+    border-bottom-color: blueviolet;
+    border-right-color: aquamarine;
+    border-radius: 50%;
+    animation: rotate 400ms infinite linear;
+
+}
+
+@keyframes rotate{
+    to{
+        transform:rotate(1turn)
+    }
+}
